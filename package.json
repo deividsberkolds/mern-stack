@@ -1,0 +1,25 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "Mern Stack Course",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "Mern",
+    "React"
+  ],
+  "author": "Deivids Berkolds <deiv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
