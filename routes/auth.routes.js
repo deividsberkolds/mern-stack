@@ -66,7 +66,7 @@ router.post(
         });
       }
 
-      const { email, body } = req.body;
+      const { email, password } = req.body;
       const user = await User.findOne({ email });
 
       if (!user) {
